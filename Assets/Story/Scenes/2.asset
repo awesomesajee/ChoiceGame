@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4809b1d069fea47708701138e109f742, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hello, I'm Joe. What type of Apartment are you looking for?
+    speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
+  - text: Hi Joe, Nice to meet you. Can I see the available apartments first?
+    speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
+  - text: Yes! Indeed.
+    speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
+  - text: 'There are two types of apartments. '
+    speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
+  - text: You can select one of them.
+    speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
+  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
+  nextScene: {fileID: 0}
+  choices: {fileID: 11400000, guid: b0062597e543a426dbbc510feb2a9476, type: 2}
