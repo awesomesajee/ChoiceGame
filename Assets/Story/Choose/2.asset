@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1485aa45f431f4c83bbb8889ffa9cae7, type: 3}
-  m_Name: 1
+  m_Name: 2
   m_EditorClassIdentifier: 
   labels:
   - text: Old
     nextScene: {fileID: 11400000, guid: a718c284c78e8425e8661a09bee1428a, type: 2}
   - text: Modern
-    nextScene: {fileID: 11400000, guid: f27a4ce8d6ca04d479d92d47ddf3a3a7, type: 2}
+    nextScene: {fileID: 11400000, guid: db2756df8dec74aa9bb7d5a83436cc01, type: 2}

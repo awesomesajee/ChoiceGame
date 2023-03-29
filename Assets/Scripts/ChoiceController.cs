@@ -11,11 +11,13 @@ public class ChoiceController : MonoBehaviour, IPointerClickHandler, IPointerEnt
     public Color hoveredColor;
     public StoryScene scene;
     public TextMeshProUGUI choiceText;
+    private ChooseController controller;
 
     private void Start()
     {
         choiceText = GetComponent<TextMeshProUGUI>();
         choiceText.color = defaultColor;
+        controller = transform.parent.GetComponent<ChooseController>();
     }
 
     public float GetLabelHeight()
@@ -26,6 +28,7 @@ public class ChoiceController : MonoBehaviour, IPointerClickHandler, IPointerEnt
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("Clicked");
+        controller.PerformChoose(scene);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

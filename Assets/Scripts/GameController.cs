@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public StoryScene currentScene;
+    public GameScene currentScene;
     public DialogController controller;
     public BackgroundController backgroundController;
     public ChooseController chooseController;
@@ -15,8 +15,13 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        controller.PlayScene(currentScene);
-        chooseController.HideChoicePanel();
+        if (currentScene is StoryScene)
+        {
+            StoryScene storyScene = currentScene as StoryScene;
+            controller.PlayScene(storyScene);
+            backgroundController.SwitchBackground(storyScene.background);
+            chooseController.HideChoicePanel();
+        }
     }
 
     // Update is called once per frame
@@ -28,14 +33,7 @@ public class GameController : MonoBehaviour
             {
                 if (controller.IsLastSentence())
                 {
-                    if (currentScene.choices != null)
-                    {
-                        chooseController.DisplayChoices(currentScene.choices);
-                        controller.PlayScene(chooseController.label.scene);
-                    }
-                    currentScene = currentScene.nextScene;
-                    controller.PlayScene(currentScene);
-                    backgroundController.SwitchBackground(currentScene.background);
+                    PlayScene((currentScene as StoryScene).nextScene);
                 }
                 else
                 {
@@ -44,5 +42,28 @@ public class GameController : MonoBehaviour
             }
         }
 
+    }
+    
+    public void PlayScene(GameScene scene)
+    {
+        StartCoroutine(SwitchScene(scene));
+    }
+    
+    private IEnumerator SwitchScene(GameScene scene)
+    {
+        currentScene = scene;
+        yield return new WaitForSeconds(1f);
+        if (scene is StoryScene)
+        {
+            StoryScene storyScene = scene as StoryScene;
+            backgroundController.SwitchBackground(storyScene.background);
+            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(1f);
+            controller.PlayScene(storyScene);
+        }
+        else if (scene is ChooseScene)
+        {
+            chooseController.DisplayChoices(scene as ChooseScene);
+        }
     }
 }

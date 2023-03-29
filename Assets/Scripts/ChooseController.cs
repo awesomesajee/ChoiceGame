@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class ChooseController : MonoBehaviour
 {
    public ChoiceController label;
+   public GameController gameController;
+   public DialogController controller;
 
    public void DisplayChoices(ChooseScene scene)
    {
@@ -16,22 +18,28 @@ public class ChooseController : MonoBehaviour
          ChoiceController choice = Instantiate(label.gameObject, transform).GetComponent<ChoiceController>();
          choice.choiceText.text = scene.labels[index].text;
          choice.scene = scene.labels[index].nextScene;
-
-         //if (labelHeight == -1)
-         //{
-         //labelHeight = choice.GetLabelHeight();
-         //}
       }
+   }
+   
+   public void PerformChoose(StoryScene scene)
+   {
+      gameController.PlayScene(scene as GameScene);
+      DestroyLabels();
    }
 
    public void HideChoicePanel()
    {
       gameObject.SetActive(false);
    }
-
-   public void AdjustChoiceHeight()
+   
+   private void DestroyLabels()
    {
-      
+      foreach(Transform childTransform in transform)
+      {
+         Destroy(childTransform.gameObject);
+      }
+
+      HideChoicePanel();
    }
 
 }

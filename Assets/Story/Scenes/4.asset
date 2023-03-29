@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4809b1d069fea47708701138e109f742, type: 3}
-  m_Name: 2
+  m_Name: 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hello, I'm Joe. What type of Apartment are you looking for?
+  - text: test1
     speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
-  - text: Hi Joe, Nice to meet you. Can I see the available apartments first?
+  - text: test2
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  - text: Yes! Indeed.
-    speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
-  nextScene: {fileID: 11400000, guid: 2c8da7b34db634fd29f10ed6233ff0c6, type: 2}
+  background: {fileID: 21300000, guid: c4624188b32504b30931fcedf48d0734, type: 3}
+  nextScene: {fileID: 11400000, guid: b0062597e543a426dbbc510feb2a9476, type: 2}

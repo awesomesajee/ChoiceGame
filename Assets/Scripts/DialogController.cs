@@ -8,6 +8,7 @@ public class DialogController : MonoBehaviour
     public TextMeshProUGUI barText;
 
     public TextMeshProUGUI speakerName;
+    public ChooseController chooseController;
 
     private int sentenceIndex = -1;
 
@@ -39,7 +40,7 @@ public class DialogController : MonoBehaviour
 
     public void PlayNextSentence()
     {
-        if (sentenceIndex < currentScene.sentences.Count - 1)
+        if (!IsLastSentence())
         {
             StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
             speakerName.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
