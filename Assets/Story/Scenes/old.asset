@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4809b1d069fea47708701138e109f742, type: 3}
-  m_Name: 4
+  m_Name: old
   m_EditorClassIdentifier: 
   sentences:
-  - text: Now let's explore the surrounding
-    speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  - text: You can slecect the apartment surrounding with your preference
-    speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
-  - text: Yes show me what you got
+  - text: I like old apartments. They are cozy and have an artistic feeling into
+      it
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
-  nextScene: {fileID: 11400000, guid: fbce7b5d8dc5743dca581517050c604d, type: 2}
+  nextScene: {fileID: 11400000, guid: ad560db7b9a71407e9b51d6fdb77d87a, type: 2}

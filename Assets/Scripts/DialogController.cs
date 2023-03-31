@@ -8,7 +8,7 @@ public class DialogController : MonoBehaviour
     public TextMeshProUGUI barText;
 
     public TextMeshProUGUI speakerName;
-    public ChooseController chooseController;
+    public SwitchCharacter switchCharacter;
 
     private int sentenceIndex = -1;
 
@@ -45,6 +45,7 @@ public class DialogController : MonoBehaviour
             StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
             speakerName.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
             speakerName.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+            switchCharacter.DisplayCharacter(currentScene.sentences[sentenceIndex].speaker.avatar);
         }
     }
     

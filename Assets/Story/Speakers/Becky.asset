@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Becky
   textColor: {r: 1, g: 0, b: 0.15225315, a: 1}
+  avatar: {fileID: 21300000, guid: 0bce1f5bdc97641fb96e6bdaaa2750af, type: 3}
