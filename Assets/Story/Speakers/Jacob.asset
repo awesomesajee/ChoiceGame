@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e57d137bd839e4b8f9f703247ed95f2b, type: 3}
-  m_Name: Arthur
+  m_Name: Jacob
   m_EditorClassIdentifier: 
   speakerName: Joe
   textColor: {r: 1, g: 0, b: 0.15225315, a: 1}
-  avatar: {fileID: 21300000, guid: 646e57242619c4853b25fe4285f05fa9, type: 3}
+  avatar: {fileID: 21300000, guid: 60528888b16c1471ab0d02d0e8249a6b, type: 3}

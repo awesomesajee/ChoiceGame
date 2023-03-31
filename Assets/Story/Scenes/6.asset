@@ -10,12 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4809b1d069fea47708701138e109f742, type: 3}
-  m_Name: 5
+  m_Name: 6
   m_EditorClassIdentifier: 
   sentences:
-  - text: Now let's check the available jobs.
+  - text: Hi! I'm Arthur
+    speaker: {fileID: 11400000, guid: 3ab63175a221245e8b1037296fc2f341, type: 2}
+  - text: Nice to meet you Arthur
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  - text: Let's meet Arthur to find a job
+  - text: Nice to meet you too. I have heard that you are looking for a new job
+    speaker: {fileID: 11400000, guid: 3ab63175a221245e8b1037296fc2f341, type: 2}
+  - text: Yes can you show me the available jobs?
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
+  - text: Sure! This is what we got at the moment
+    speaker: {fileID: 11400000, guid: 3ab63175a221245e8b1037296fc2f341, type: 2}
   background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
   nextScene: {fileID: 11400000, guid: b4bead90d7e404761940b5e55b92f972, type: 2}

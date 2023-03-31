@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4809b1d069fea47708701138e109f742, type: 3}
-  m_Name: 5
+  m_Name: waitress
   m_EditorClassIdentifier: 
   sentences:
-  - text: Now let's check the available jobs.
-    speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  - text: Let's meet Arthur to find a job
+  - text: Oh I always wanted to become a waitress
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
-  nextScene: {fileID: 11400000, guid: b4bead90d7e404761940b5e55b92f972, type: 2}
+  nextScene: {fileID: 11400000, guid: 5a7b38cfa9ea04623ae426bc0b3002d9, type: 2}

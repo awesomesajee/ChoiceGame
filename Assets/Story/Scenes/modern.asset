@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: modern
   m_EditorClassIdentifier: 
   sentences:
-  - text: test1
-    speaker: {fileID: 11400000, guid: e58d1aa83d1b34e068e9458e17a32a39, type: 2}
-  - text: test2
+  - text: I really like modern apartments.
+    speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
+  - text: 'It gives me more energy to wake up. '
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   background: {fileID: 21300000, guid: c4624188b32504b30931fcedf48d0734, type: 3}
-  nextScene: {fileID: 11400000, guid: b0062597e543a426dbbc510feb2a9476, type: 2}
+  nextScene: {fileID: 11400000, guid: ad560db7b9a71407e9b51d6fdb77d87a, type: 2}

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1485aa45f431f4c83bbb8889ffa9cae7, type: 3}
-  m_Name: 2
+  m_Name: 3
   m_EditorClassIdentifier: 
   labels:
-  - text: By Village
-    nextScene: {fileID: 11400000, guid: 82fc269fecb8d46e3856c19db3161b09, type: 2}
-  - text: Nature / Scenary
-    nextScene: {fileID: 11400000, guid: 3c704bd384ba74a0aa848dc1ab0aaac5, type: 2}
+  - text: Sales Girl
+    nextScene: {fileID: 11400000, guid: 8ffcda0327c5744648e561beeaed40ea, type: 2}
+  - text: Waitress
+    nextScene: {fileID: 11400000, guid: efa1fb4f0bee94f4ba61a1c789800239, type: 2}

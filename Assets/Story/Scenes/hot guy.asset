@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4809b1d069fea47708701138e109f742, type: 3}
-  m_Name: 5
+  m_Name: hot guy
   m_EditorClassIdentifier: 
   sentences:
-  - text: Now let's check the available jobs.
+  - text: I really like this guy and he's hot
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  - text: Let's meet Arthur to find a job
+  - text: I need to speak to him
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
-  nextScene: {fileID: 11400000, guid: b4bead90d7e404761940b5e55b92f972, type: 2}
+  nextScene: {fileID: 11400000, guid: 383665835f5db44189c8eb11a0eff53c, type: 2}
