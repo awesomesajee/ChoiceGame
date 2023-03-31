@@ -17,5 +17,5 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   - text: Oh Hello, I'm Jacob
     speaker: {fileID: 11400000, guid: 9ce74b6416c6d4f2f8d08abac06294b8, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
-  nextScene: {fileID: 11400000, guid: 4c563996cb2694a268f29bf9722daf59, type: 2}
+  background: {fileID: 21300000, guid: cfd24ecdae48b498aab953777ed6572f, type: 3}
+  nextScene: {fileID: 11400000, guid: 97da9e5bbe2a64576b35c90293d9489a, type: 2}

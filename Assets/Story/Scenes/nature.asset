@@ -19,5 +19,5 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   - text: I really like this apartment. Perfect!
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
+  background: {fileID: 21300000, guid: 2b7bde2f83e69422aae488b48c5baec9, type: 3}
   nextScene: {fileID: 11400000, guid: 05735b2e5c6e24c32990e015f8172ba5, type: 2}

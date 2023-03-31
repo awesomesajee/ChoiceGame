@@ -23,5 +23,5 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   - text: Sure! This is what we got at the moment
     speaker: {fileID: 11400000, guid: 3ab63175a221245e8b1037296fc2f341, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
+  background: {fileID: 21300000, guid: e3095f4e322be43a481c6615925e1bf3, type: 3}
   nextScene: {fileID: 11400000, guid: b4bead90d7e404761940b5e55b92f972, type: 2}

@@ -15,5 +15,5 @@ MonoBehaviour:
   sentences:
   - text: Oh I always wanted to become a Sales girl
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
+  background: {fileID: 21300000, guid: 82d09e6cccd84488a82280a9441eb5ec, type: 3}
   nextScene: {fileID: 11400000, guid: 5a7b38cfa9ea04623ae426bc0b3002d9, type: 2}

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hi! I'm Becky
+  - text: 'I got a date. '
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  - text: Oh Hello, I'm Brandon
-    speaker: {fileID: 11400000, guid: 19ec6035a199f403ba25498b07a6fb9d, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
-  nextScene: {fileID: 11400000, guid: 4c563996cb2694a268f29bf9722daf59, type: 2}
+  - text: I'm so happy all worked for me
+    speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
+  background: {fileID: 21300000, guid: 09bfcd1172dca450a87b1e0e71e10b7f, type: 3}
+  nextScene: {fileID: 0}

@@ -17,5 +17,5 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
   - text: I need to speak to him
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
+  background: {fileID: 21300000, guid: cfd24ecdae48b498aab953777ed6572f, type: 3}
   nextScene: {fileID: 11400000, guid: 383665835f5db44189c8eb11a0eff53c, type: 2}

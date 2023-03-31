@@ -15,5 +15,5 @@ MonoBehaviour:
   sentences:
   - text: I really like to live in the village. This is perfect!
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
+  background: {fileID: 21300000, guid: d389fbd0f4c8a46ada66700f78434b2d, type: 3}
   nextScene: {fileID: 11400000, guid: 05735b2e5c6e24c32990e015f8172ba5, type: 2}

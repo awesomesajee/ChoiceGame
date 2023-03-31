@@ -16,5 +16,5 @@ MonoBehaviour:
   - text: I like old apartments. They are cozy and have an artistic feeling into
       it
     speaker: {fileID: 11400000, guid: 06ac9061d986c423789e7a9e7e661d02, type: 2}
-  background: {fileID: 21300000, guid: 532a0b659546e42cabe7f9edba90d633, type: 3}
+  background: {fileID: 21300000, guid: c4624188b32504b30931fcedf48d0734, type: 3}
   nextScene: {fileID: 11400000, guid: ad560db7b9a71407e9b51d6fdb77d87a, type: 2}
